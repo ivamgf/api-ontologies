@@ -1,0 +1,2139 @@
+{
+	"RDF": {
+		"Ontology": {
+			"_rdf:about": "urn:webprotege:ontology:e011713a-f22a-4d6c-abcb-a8fecca431ae",
+			"__prefix": "owl"
+		},
+		"AnnotationProperty": [
+			{
+				"_rdf:about": "http://purl.org/dc/elements/1.1/description",
+				"__prefix": "owl"
+			},
+			{
+				"_rdf:about": "http://purl.org/dc/elements/1.1/rights",
+				"__prefix": "owl"
+			},
+			{
+				"_rdf:about": "http://purl.org/dc/elements/1.1/title",
+				"__prefix": "owl"
+			}
+		],
+		"ObjectProperty": [
+			{
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Uses"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R8GqLTGtABWmNeqldaQhwdV",
+				"__prefix": "owl"
+			},
+			{
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Has"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RB7DQhuQ1CovtdmBaj4jyVj",
+				"__prefix": "owl"
+			},
+			{
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Create"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RBVrBNxoMptPFawGAduKxCP",
+				"__prefix": "owl"
+			}
+		],
+		"Class": [
+			{
+				"subClassOf": [
+					{
+						"_rdf:resource": "http://webprotege.stanford.edu/RDWjVE386Q9Sre5zltvbQtx",
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R8GqLTGtABWmNeqldaQhwdV",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R3zZo6P7NUR7QUNJ80ezGF",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R8GqLTGtABWmNeqldaQhwdV",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R7Kr4Tl1ro1Qlk9RbTk8OA9",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R8GqLTGtABWmNeqldaQhwdV",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R7NAUbx6YCWKukQmIdvKadk",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R8GqLTGtABWmNeqldaQhwdV",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RBf22CZUB0VNvMk0nboW3AB",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RB7DQhuQ1CovtdmBaj4jyVj",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R9w1aRI59UNrNa2MRbaVNrf",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					}
+				],
+				"description": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "dc",
+						"__text": "Technologies that add real-world information in layers"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "dc",
+						"__text": "Tecnologias que adicionam informações do mundo real em camadas"
+					},
+					{
+						"_xml:lang": "es",
+						"__prefix": "dc",
+						"__text": "Tecnologías que añaden información del mundo real en capas"
+					},
+					{
+						"_xml:lang": "es",
+						"__prefix": "dc",
+						"__text": "término"
+					}
+				],
+				"rights": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "wikidate"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "Augmented reality"
+				},
+				"label": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "Augmented Reality"
+					},
+					{
+						"_xml:lang": "es",
+						"__prefix": "rdfs",
+						"__text": "realidad aumentada"
+					}
+				],
+				"seeAlso": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "AR"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R0ohOoXmYisnBgc4EChkQS",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "SmartGlasses"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R3zZo6P7NUR7QUNJ80ezGF",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": [
+					{
+						"_rdf:resource": "http://webprotege.stanford.edu/R3zZo6P7NUR7QUNJ80ezGF",
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RB7DQhuQ1CovtdmBaj4jyVj",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R8PT4l6H11X9yyJZaD4ssX5",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					}
+				],
+				"description": [
+					{
+						"_xml:lang": "es",
+						"__prefix": "dc",
+						"__text": "Las gafas de MR, o gafas de Realidad Mixta, son dispositivos portátiles avanzados que combinan elementos tanto de la realidad virtual (VR) como de la realidad aumentada (AR). Estas gafas permiten a los usuarios interactuar con objetos virtuales mientras mantienen la conciencia del entorno físico. Las gafas de MR logran esto mapeando el entorno del usuario y superponiendo contenido virtual sobre objetos o superficies específicas del mundo real. Esta combinación de elementos reales y virtuales permite a los usuarios interactuar y manipular objetos digitales de manera más inmersiva y realista. Las gafas de MR ofrecen una integración perfecta de experiencias virtuales y del mundo real, lo que las hace adecuadas para una amplia gama de aplicaciones, como juegos, diseño, entrenamiento y colaboración."
+					},
+					{
+						"_xml:lang": "en",
+						"__prefix": "dc",
+						"__text": "MR glasses, or Mixed Reality glasses, are advanced wearable devices that combine elements of both virtual reality (VR) and augmented reality (AR). These glasses allow users to interact with virtual objects while maintaining awareness of the physical environment. MR glasses achieve this by mapping the user's surroundings and overlaying virtual content onto specific real-world objects or surfaces. This blending of real and virtual elements enables users to interact with and manipulate digital objects in a more immersive and realistic manner. MR glasses provide a seamless integration of virtual and real-world experiences, making them suitable for a wide range of applications, such as gaming, design, training, and collaboration."
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "dc",
+						"__text": "Óculos de MR, ou óculos de Realidade Mista, são dispositivos vestíveis avançados que combinam elementos tanto da realidade virtual (VR) quanto da realidade aumentada (AR). Esses óculos permitem que os usuários interajam com objetos virtuais enquanto mantêm a consciência do ambiente físico. Os óculos de MR conseguem isso mapeando o ambiente do usuário e sobrepondo conteúdo virtual a objetos ou superfícies específicos do mundo real. Essa combinação de elementos reais e virtuais permite que os usuários interajam e manipulem objetos digitais de maneira mais imersiva e realista. Os óculos de MR proporcionam uma integração perfeita de experiências virtuais e do mundo real, tornando-os adequados para uma ampla gama de aplicações, como jogos, design, treinamento e colaboração."
+					}
+				],
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "MR glasses"
+				},
+				"label": [
+					{
+						"_xml:lang": "es",
+						"__prefix": "rdfs",
+						"__text": "Las gafas de MR"
+					},
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "MRGlasses"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "Óculos de MR"
+					}
+				],
+				"seeAlso": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "MR glasses"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R5hNIIAN2atAZBIusGXQEg",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Pyroeletric-Infrared"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R70NoVr7dNJ1ACcCl9kM62r",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Freehand"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R7Kr4Tl1ro1Qlk9RbTk8OA9",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl",
+					"__prefix": "rdfs"
+				},
+				"description": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "input/output device usually layered on the top of an electronic visual display"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "touchscreen"
+				},
+				"label": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "Touchscreen"
+					},
+					{
+						"_xml:lang": "pt",
+						"__prefix": "rdfs",
+						"__text": "ecrã tátil"
+					}
+				],
+				"seeAlso": [
+					{
+						"_xml:lang": "pt",
+						"__prefix": "rdfs",
+						"__text": "tela sensível ao toque,ecrã táctil,touchscreen,touch Screen,tela de toque,tela tocável,tela tátil,tela touch screen"
+					},
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "touch screen"
+					}
+				],
+				"_rdf:about": "http://webprotege.stanford.edu/R7NAUbx6YCWKukQmIdvKadk",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RDWjVE386Q9Sre5zltvbQtx",
+					"__prefix": "rdfs"
+				},
+				"description": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "paradigm of distributed computing"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "edge computing"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "EdgeComputing"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R7UsO9RwycM4GFbXRIw2xIL",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": [
+					{
+						"_rdf:resource": "http://webprotege.stanford.edu/R7csiEBmcxi8QFmvvYMCjL9",
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RB7DQhuQ1CovtdmBaj4jyVj",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R9BRJoWJwmMwVIsyl3z604",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					}
+				],
+				"description": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "intermediate photograph that contains information for reproducing a three-dimensional image by holography"
+				},
+				"label": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "Hologram"
+					},
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "hologram"
+					}
+				],
+				"_rdf:about": "http://webprotege.stanford.edu/R7cRE4e6MGjSY2XjvwgiIa4",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RD29sBhg2jPIVZ0JtvarUeO",
+					"__prefix": "rdfs"
+				},
+				"description": [
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "dc",
+						"__text": "Representação de um objeto ou forma dentro do metaverso, de forma virtual. Modelo virtual projetado para refletir com precisão um objeto físico"
+					},
+					{
+						"_xml:lang": "en",
+						"__prefix": "dc",
+						"__text": "similar-age unrelated children brought up together"
+					}
+				],
+				"rights": {
+					"_xml:lang": "pt-br",
+					"__prefix": "dc",
+					"__text": "Longo, W.; Tavares, F. Metaverso: Onde você vai viver e trabalhar em breve, Alta Books, p. 135, 2022"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "DigitalTwin"
+				},
+				"label": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "DigitalTwin"
+					},
+					{
+						"_xml:lang": "pt",
+						"__prefix": "rdfs",
+						"__text": "Gêmeo virtual"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "Gêmeo virtual"
+					}
+				],
+				"seeAlso": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Virtual Twin"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R7csiEBmcxi8QFmvvYMCjL9",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R9CqtxgTdgZgt4xQzA681I3",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "HardwareComponent"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Optical-based"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R7rIORSLnDdcVmRf28MsJrP",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RDhJPnoR9158jUl01UOMKB7",
+					"__prefix": "rdfs"
+				},
+				"description": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "fictional character in a role-playing or video game that cannot be played or controlled by a real-world person"
+				},
+				"rights": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "wikidata"
+				},
+				"label": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "Non-Player Character"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "personagem não jogável"
+					}
+				],
+				"seeAlso": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "NPC, non-person character, non-playable character"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "Personagem não-jogável, Non-player characters, NPC, NPCs, Non-player character, personagem nao jogavel, Personagem do mestre, PDM"
+					}
+				],
+				"_rdf:about": "http://webprotege.stanford.edu/R7ssxJJmhC01kjTLcGbIclO",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R8sDp7CvKLTn5jJQbtqszb4",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Smart-Wrist-Bands"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R81LQzZId3w7RY52g26A8pJ",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RDhJPnoR9158jUl01UOMKB7",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "FormalAvatar"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R86DQUhwAMOZWtMDs7GXfqM",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "LargeDisplays"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R88BygeVWdg6Xlwpqpy8q3A",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": [
+					{
+						"_rdf:resource": "http://webprotege.stanford.edu/RDWjVE386Q9Sre5zltvbQtx",
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RBVrBNxoMptPFawGAduKxCP",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R7cRE4e6MGjSY2XjvwgiIa4",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					}
+				],
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Holographic"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R8DdSZEPEHVKPU0n4pubEfx",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RBfcCDzdEh7OJhcjwiOuFIO",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "DigitalTextile"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R8ON6hggGkr58AqhhVx7hNJ",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": [
+					{
+						"_rdf:resource": "http://webprotege.stanford.edu/RDWjVE386Q9Sre5zltvbQtx",
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RB7DQhuQ1CovtdmBaj4jyVj",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R0ohOoXmYisnBgc4EChkQS",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					}
+				],
+				"description": [
+					{
+						"_xml:lang": "es",
+						"__prefix": "dc",
+						"__text": "combinación de realidad virtual y realidad aumentada"
+					},
+					{
+						"_xml:lang": "en",
+						"__prefix": "dc",
+						"__text": "merging of real and virtual worlds to produce new environments"
+					}
+				],
+				"rights": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "wikidata"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "Mixed Reality"
+				},
+				"label": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "Mixed Reality"
+					},
+					{
+						"_xml:lang": "es",
+						"__prefix": "rdfs",
+						"__text": "realidad mixta"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "realidade mista"
+					}
+				],
+				"seeAlso": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "hybrid reality, MR"
+					},
+					{
+						"_xml:lang": "es",
+						"__prefix": "rdfs",
+						"__text": "realidad híbrida"
+					}
+				],
+				"_rdf:about": "http://webprotege.stanford.edu/R8PT4l6H11X9yyJZaD4ssX5",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "HapticDevice"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R8sDp7CvKLTn5jJQbtqszb4",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": [
+					{
+						"_rdf:resource": "http://webprotege.stanford.edu/RDWjVE386Q9Sre5zltvbQtx",
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R8GqLTGtABWmNeqldaQhwdV",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R3zZo6P7NUR7QUNJ80ezGF",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R8GqLTGtABWmNeqldaQhwdV",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R7NAUbx6YCWKukQmIdvKadk",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R8GqLTGtABWmNeqldaQhwdV",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RBf22CZUB0VNvMk0nboW3AB",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					}
+				],
+				"description": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "a term referring to all real-and-virtual combined environments"
+				},
+				"rights": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "wikidata"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "Extended reality"
+				},
+				"label": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "Extended Reality"
+					},
+					{
+						"_xml:lang": "es",
+						"__prefix": "rdfs",
+						"__text": "Realidad extendida"
+					}
+				],
+				"seeAlso": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "XR, AR/VR/MR"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R938Yj4nO2rBxZsItdONyVy",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/ROa08J3jBXVlO6zspDOAhF",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "CellingProjector"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R9A11RmuVruAOerXKyySiWr",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R9CqtxgTdgZgt4xQzA681I3",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Plasma-Fairies"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R9BRJoWJwmMwVIsyl3z604",
+				"__prefix": "owl"
+			},
+			{
+				"description": [
+					{
+						"_xml:lang": "es",
+						"__prefix": "dc",
+						"__text": "espacio virtual compartido en el que convergen la realidad física virtualmente mejorada y el espacio virtual físicamente persistente"
+					},
+					{
+						"_xml:lang": "en",
+						"__prefix": "dc",
+						"__text": "hypothetical iteration of the Internet as a single, universal, and immersive virtual world that is facilitated by the use of virtual reality and augmented reality headsets"
+					},
+					{
+						"_xml:lang": "pt",
+						"__prefix": "dc",
+						"__text": "terminologia"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "dc",
+						"__text": "terminologia"
+					}
+				],
+				"rights": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "wikidata"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "Metaverse"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Metaverse Domain"
+				},
+				"seeAlso": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Meta Universe"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R9CqtxgTdgZgt4xQzA681I3",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/ROa08J3jBXVlO6zspDOAhF",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Miniature"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R9RXc2oDRXjxK6VJFrIJEsL",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RDWjVE386Q9Sre5zltvbQtx",
+					"__prefix": "rdfs"
+				},
+				"description": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "Internet-like structure connecting everyday physical objects"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "Internet of things"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "IoT"
+				},
+				"seeAlso": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Internet of Things, IoT"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R9SrRcLzUPXzmk0Spg8BboM",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RDWjVE386Q9Sre5zltvbQtx",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "NetworkTech"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R9ZZk4h5JjRvO2J2MpNP8vp",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R9CqtxgTdgZgt4xQzA681I3",
+					"__prefix": "rdfs"
+				},
+				"description": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "practice of making information, activities, and/or environments sensible, meaningful, and usable for as many people as possible"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "accessibility"
+				},
+				"label": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "Accessibility"
+					},
+					{
+						"_xml:lang": "pt",
+						"__prefix": "rdfs",
+						"__text": "acessibilidade"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "acessibilidade"
+					}
+				],
+				"seeAlso": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "accessible,a11y"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R9haK9FBO1wxTUoqtU5fR0",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": [
+					{
+						"_rdf:resource": "http://webprotege.stanford.edu/RDWjVE386Q9Sre5zltvbQtx",
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R8GqLTGtABWmNeqldaQhwdV",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R3zZo6P7NUR7QUNJ80ezGF",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R8GqLTGtABWmNeqldaQhwdV",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R7NAUbx6YCWKukQmIdvKadk",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R8GqLTGtABWmNeqldaQhwdV",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RBf22CZUB0VNvMk0nboW3AB",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RB7DQhuQ1CovtdmBaj4jyVj",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R7Kr4Tl1ro1Qlk9RbTk8OA9",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					}
+				],
+				"description": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "dc",
+						"__text": "computer-simulated environment simulating physical presence in real or imagined worlds"
+					},
+					{
+						"_xml:lang": "es",
+						"__prefix": "dc",
+						"__text": "entorno de escenas u objetos de apariencia real, generado mediante tecnología informática"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "dc",
+						"__text": "experiência simulada por computador"
+					}
+				],
+				"rights": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "wikidata"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "Virtual Reality"
+				},
+				"label": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "Virtual Reality"
+					},
+					{
+						"_xml:lang": "es",
+						"__prefix": "rdfs",
+						"__text": "realidad virtual"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "realidade virtual"
+					}
+				],
+				"seeAlso": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "VR, V.R."
+					},
+					{
+						"_xml:lang": "pt",
+						"__prefix": "rdfs",
+						"__text": "virtual reality, VR, V.R., RV"
+					},
+					{
+						"_xml:lang": "es",
+						"__prefix": "rdfs",
+						"__text": "virtualmente"
+					}
+				],
+				"_rdf:about": "http://webprotege.stanford.edu/R9v0JSEu2gjQjh42dV5fXLa",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RBtl62fEx4ULD5ucsQ0ukyL",
+					"__prefix": "rdfs"
+				},
+				"description": [
+					{
+						"_xml:lang": "es",
+						"__prefix": "dc",
+						"__text": "La capacidad de integrar elementos del mundo real u otras plataformas digitales en el entorno virtual del metaverso."
+					},
+					{
+						"_xml:lang": "en",
+						"__prefix": "dc",
+						"__text": "The ability to integrate elements from the real world or other digital platforms into the virtual environment of the metaverse."
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "dc",
+						"__text": "capacidade de integrar elementos do mundo real ou de outras plataformas digitais no ambiente virtual do metaverso."
+					}
+				],
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "External/Augmentation"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/R9w1aRI59UNrNa2MRbaVNrf",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R9CqtxgTdgZgt4xQzA681I3",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Process"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RBMB9MDh88kGGFM7fuGKlx",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RBtl62fEx4ULD5ucsQ0ukyL",
+					"__prefix": "rdfs"
+				},
+				"description": [
+					{
+						"_xml:lang": "es",
+						"__prefix": "dc",
+						"__text": "La capacidad de simular y reproducir entornos, objetos o fenómenos del mundo real dentro del ambiente virtual del metaverso."
+					},
+					{
+						"_xml:lang": "en",
+						"__prefix": "dc",
+						"__text": "The ability to simulate and reproduce environments, objects, or phenomena from the real world within the virtual environment of the metaverse."
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "dc",
+						"__text": "capacidade de simular e reproduzir ambientes, objetos ou fenômenos do mundo real dentro do ambiente virtual do metaverso."
+					}
+				],
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "External/Simulation"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RBZOx1VOVQ4g5el4yEEFsdV",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R8sDp7CvKLTn5jJQbtqszb4",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Gloves"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RBc56gxm0fmf1neCjbDbgE0",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RC1NpZWDTN6Rvp4y4bzaqXL",
+					"__prefix": "rdfs"
+				},
+				"description": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "dc",
+						"__text": "Records the state of the environment and real-world condition"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "dc",
+						"__text": "Registra o estado do ambiente e condição do mundo real"
+					}
+				],
+				"rights": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "Lee, H.J. & Hwang, Y. (2022). Technology-Enhanced Education through VR-Making and Metaverse-Linking to Foster Teacher Readiness and Sustainable Learning. Sustainability, Vol. 14 (8), pp. 1-21. https://doi.org/10.3390/su14084786"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "Object Lifelogs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Object Lifelogs"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RBepUOI5z3FuxfexeMVGXlJ",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl",
+					"__prefix": "rdfs"
+				},
+				"description": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "combination of an earphone or two earphones and microphone worn on the user's head and used for communication"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "headset"
+				},
+				"label": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "Headset"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "headset"
+					}
+				],
+				"seeAlso": [
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "Headsets"
+					},
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "telephone headset,comset,commset,comms set,communication headset,Headsets"
+					}
+				],
+				"_rdf:about": "http://webprotege.stanford.edu/RBf22CZUB0VNvMk0nboW3AB",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "OnBody"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RBfcCDzdEh7OJhcjwiOuFIO",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "IMU-Driven"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RBjV16e4kiVZaIf9tAwwqZ4",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R9CqtxgTdgZgt4xQzA681I3",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Features"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RBtl62fEx4ULD5ucsQ0ukyL",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": [
+					{
+						"_rdf:resource": "http://webprotege.stanford.edu/RC9uZuliturXmkLvVOLknYn",
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RB7DQhuQ1CovtdmBaj4jyVj",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RQejR1dgRHhBAEECXDqXYw",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					}
+				],
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "LifeLogging"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RC1NpZWDTN6Rvp4y4bzaqXL",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": [
+					{
+						"_rdf:resource": "http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl",
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RB7DQhuQ1CovtdmBaj4jyVj",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RBf22CZUB0VNvMk0nboW3AB",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					}
+				],
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Head-Mounted-Display"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RC2htoxlf9exX0X5gOt3hJ0",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "VirtualVehicle"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RC7Ph4B3MdUruUijWnFW38k",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": [
+					{
+						"_rdf:resource": "http://webprotege.stanford.edu/R9CqtxgTdgZgt4xQzA681I3",
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RB7DQhuQ1CovtdmBaj4jyVj",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R0ohOoXmYisnBgc4EChkQS",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					}
+				],
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Types"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RC9uZuliturXmkLvVOLknYn",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Tabletops"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RCGFdzSxLwEpKNyffM3uN6q",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": [
+					{
+						"_rdf:resource": "http://webprotege.stanford.edu/R3zZo6P7NUR7QUNJ80ezGF",
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RB7DQhuQ1CovtdmBaj4jyVj",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R0ohOoXmYisnBgc4EChkQS",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					}
+				],
+				"description": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "dc",
+						"__text": "AR glasses, or Augmented Reality glasses, are wearable devices that overlay digital information onto the real-world environment. These glasses typically consist of a display unit, which can be transparent or semi-transparent, allowing users to see both the real world and the virtual content simultaneously. The digital information displayed by AR glasses can include text, images, videos, or 3D models, which are superimposed onto the user's field of view. This technology enhances the user's perception of reality by adding virtual elements to the real world, creating an augmented experience."
+					},
+					{
+						"_xml:lang": "es",
+						"__prefix": "dc",
+						"__text": "Las gafas de AR, o gafas de Realidad Aumentada, son dispositivos portátiles que superponen información digital al entorno del mundo real. Estas gafas suelen constar de una unidad de visualización, que puede ser transparente o semitransparente, permitiendo a los usuarios ver tanto el mundo real como el contenido virtual de manera simultánea. La información digital mostrada por las gafas de AR puede incluir texto, imágenes, videos o modelos 3D, que se superponen al campo de visión del usuario. Esta tecnología mejora la percepción del usuario respecto a la realidad, añadiendo elementos virtuales al mundo real y creando una experiencia aumentada."
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "dc",
+						"__text": "Óculos de AR, ou óculos de Realidade Aumentada, são dispositivos vestíveis que sobrepõem informações digitais ao ambiente do mundo real. Esses óculos geralmente consistem em uma unidade de exibição, que pode ser transparente ou semitransparente, permitindo que os usuários vejam tanto o mundo real quanto o conteúdo virtual simultaneamente. As informações digitais exibidas pelos óculos de AR podem incluir texto, imagens, vídeos ou modelos 3D, que são sobrepostos ao campo de visão do usuário. Essa tecnologia melhora a percepção do usuário em relação à realidade, adicionando elementos virtuais ao mundo real e criando uma experiência aumentada."
+					}
+				],
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "AR glasses"
+				},
+				"label": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "ARGlasses"
+					},
+					{
+						"_xml:lang": "es",
+						"__prefix": "rdfs",
+						"__text": "Las gafas de AR"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "Óculos de AR"
+					}
+				],
+				"seeAlso": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "AR glasses"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RCHawkWFigXMRWJNnCeaEJ",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RBtl62fEx4ULD5ucsQ0ukyL",
+					"__prefix": "rdfs"
+				},
+				"description": [
+					{
+						"_xml:lang": "es",
+						"__prefix": "dc",
+						"__text": "En el contexto del metaverso, se refiere a la capacidad de simular y recrear experiencias altamente personales e íntimas dentro del entorno virtual."
+					},
+					{
+						"_xml:lang": "en",
+						"__prefix": "dc",
+						"__text": "In the context of the metaverse, it refers to the ability to simulate and recreate highly personal and intimate experiences within the virtual environment."
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "dc",
+						"__text": "no contexto do metaverso refere-se à capacidade de simular e recriar experiências altamente pessoais e íntimas dentro do ambiente virtual."
+					}
+				],
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Intimate/Simulation"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RCNimXVCHkyTTApvG8TOtii",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RDWjVE386Q9Sre5zltvbQtx",
+					"__prefix": "rdfs"
+				},
+				"description": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "computerized information extraction from images"
+				},
+				"rights": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "wikidata"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "computer vision"
+				},
+				"label": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "Computer Vision"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "visão computacional"
+					}
+				],
+				"seeAlso": {
+					"_xml:lang": "pt-br",
+					"__prefix": "rdfs",
+					"__text": "Visão por computador"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RCzvqOMGgVH4o5Tnlq4xj1r",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R9CqtxgTdgZgt4xQzA681I3",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Digitization"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RD29sBhg2jPIVZ0JtvarUeO",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/ROa08J3jBXVlO6zspDOAhF",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Pico(wearable)"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RDMSbxPAVQ01ze0Uknd91Wd",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R9CqtxgTdgZgt4xQzA681I3",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Technology"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RDWjVE386Q9Sre5zltvbQtx",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RBfcCDzdEh7OJhcjwiOuFIO",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Eletroencephalography"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RDYFPcisvSTitDRuBLydwv6",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R7csiEBmcxi8QFmvvYMCjL9",
+					"__prefix": "rdfs"
+				},
+				"description": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "dc",
+						"__text": "graphical representation of the user or the user's alter ego or character"
+					},
+					{
+						"_xml:lang": "es",
+						"__prefix": "dc",
+						"__text": "representación gráfica del álter ego de un usuario o de un personaje"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "dc",
+						"__text": "representação gráfica de um usuário na Internet"
+					}
+				],
+				"rights": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "wikidata"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "Avatar"
+				},
+				"label": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "Avatar"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "Avatar"
+					}
+				],
+				"seeAlso": [
+					{
+						"_xml:lang": "es",
+						"__prefix": "rdfs",
+						"__text": "avatares"
+					},
+					{
+						"_xml:lang": "pt",
+						"__prefix": "rdfs",
+						"__text": "foto de perfil, imagem de perfil"
+					},
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "profile picture, pfp, avi"
+					}
+				],
+				"_rdf:about": "http://webprotege.stanford.edu/RDhJPnoR9158jUl01UOMKB7",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": [
+					{
+						"_rdf:resource": "http://webprotege.stanford.edu/R9CqtxgTdgZgt4xQzA681I3",
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RB7DQhuQ1CovtdmBaj4jyVj",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R7csiEBmcxi8QFmvvYMCjL9",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					}
+				],
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "PhysicalCounterpart"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RDkAeyIpynzg15cO13XjDRD",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RDhJPnoR9158jUl01UOMKB7",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "GamingAvatar"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RIBKRSMLCkDHsVvvJHUDos",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RBfcCDzdEh7OJhcjwiOuFIO",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "ActiTouch"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RJW4UsCygYmDxkVpLQds5V",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Projector"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/ROa08J3jBXVlO6zspDOAhF",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RBtl62fEx4ULD5ucsQ0ukyL",
+					"__prefix": "rdfs"
+				},
+				"description": [
+					{
+						"_xml:lang": "es",
+						"__prefix": "dc",
+						"__text": "La capacidad de personalizar y mejorar la experiencia virtual de manera individualizada para cada usuario."
+					},
+					{
+						"_xml:lang": "en",
+						"__prefix": "dc",
+						"__text": "The ability to customize and enhance the virtual experience in an individualized manner for each user."
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "dc",
+						"__text": "capacidade de personalizar e aprimorar a experiência virtual de forma individualizada para cada usuário."
+					}
+				],
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Intimate/Augmentation"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RQejR1dgRHhBAEECXDqXYw",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RBfcCDzdEh7OJhcjwiOuFIO",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Electromyography"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RQkDhtXjJ5tKIe4zTU3ZC7",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": [
+					{
+						"_rdf:resource": "http://webprotege.stanford.edu/R3zZo6P7NUR7QUNJ80ezGF",
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RB7DQhuQ1CovtdmBaj4jyVj",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/R9v0JSEu2gjQjh42dV5fXLa",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					}
+				],
+				"description": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "Virtual reality glasses"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "VRGlasses"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "VRGlasses"
+				},
+				"seeAlso": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "VR Glasses"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RSS8yOBVXB8QrMqFhDCP5C",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RDhJPnoR9158jUl01UOMKB7",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "SocialNetworkAvatar"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RVTnSphMknIz0CRSq2aRS9",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RDWjVE386Q9Sre5zltvbQtx",
+					"__prefix": "rdfs"
+				},
+				"description": [
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "dc",
+						"__text": "base de dados distribuída para transações digitais"
+					},
+					{
+						"_xml:lang": "en",
+						"__prefix": "dc",
+						"__text": "distributed data store for digital transactions"
+					},
+					{
+						"_xml:lang": "es",
+						"__prefix": "dc",
+						"__text": "forma de contabilidad criptográfica distribuida"
+					}
+				],
+				"rights": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "wikidata"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "Blockchain"
+				},
+				"isDefinedBy": {
+					"_xml:lang": "pt",
+					"__prefix": "rdfs",
+					"__text": "cadeia de blocos"
+				},
+				"label": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "Blockchain"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "Blockchain"
+					},
+					{
+						"_xml:lang": "es",
+						"__prefix": "rdfs",
+						"__text": "cadena de bloques"
+					}
+				],
+				"seeAlso": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "block chain, block chain technology, blockchains, blockchain technology"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RWy6QS51CzLtitaiHCdnqH",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": [
+					{
+						"_rdf:resource": "http://webprotege.stanford.edu/RC9uZuliturXmkLvVOLknYn",
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RB7DQhuQ1CovtdmBaj4jyVj",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RCNimXVCHkyTTApvG8TOtii",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					}
+				],
+				"description": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "digital representation as a software model of real-world environments"
+				},
+				"rights": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "wikidata"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "Mirror world"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "MirrorWorld"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RYgAUWFiOumjUOpAWQSPzt",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RBfcCDzdEh7OJhcjwiOuFIO",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "SmartWoven"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RkEJDUjepf1HiuORm993gX",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": [
+					{
+						"_rdf:resource": "http://webprotege.stanford.edu/RC9uZuliturXmkLvVOLknYn",
+						"__prefix": "rdfs"
+					},
+					{
+						"Restriction": {
+							"onProperty": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RB7DQhuQ1CovtdmBaj4jyVj",
+								"__prefix": "owl"
+							},
+							"someValuesFrom": {
+								"_rdf:resource": "http://webprotege.stanford.edu/RBZOx1VOVQ4g5el4yEEFsdV",
+								"__prefix": "owl"
+							},
+							"__prefix": "owl"
+						},
+						"__prefix": "rdfs"
+					}
+				],
+				"description": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "dc",
+						"__text": "computer-based simulated environment populated by many users who can create a personal avatar, and simultaneously and independently explore the virtual world, participate in its activities and communicate with others"
+					},
+					{
+						"_xml:lang": "es",
+						"__prefix": "dc",
+						"__text": "tipo de comunidad virtual en línea que simula un mundo o entorno artificial"
+					}
+				],
+				"rights": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "wikidata"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "Virtual world"
+				},
+				"label": [
+					{
+						"_xml:lang": "es",
+						"__prefix": "rdfs",
+						"__text": "Mundo virtual"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "Mundo virtual"
+					},
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "VirtualWorld"
+					}
+				],
+				"seeAlso": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "MMOW, massively multiplayer online world, virtual space, virtual universe, virtual environment"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "Mundos virtuais"
+					},
+					{
+						"_xml:lang": "es",
+						"__prefix": "rdfs",
+						"__text": "mundos virtuales, universo virtual"
+					}
+				],
+				"_rdf:about": "http://webprotege.stanford.edu/RkF9aEOaG1HGe9BnRqzCLv",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "FlyingDrone"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RkstZzLW9YcRgmnt22jadR",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RC1NpZWDTN6Rvp4y4bzaqXL",
+					"__prefix": "rdfs"
+				},
+				"description": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "personal record of one's daily life"
+				},
+				"rights": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "wikidata"
+				},
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "Lifelog"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Lifelog"
+				},
+				"seeAlso": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "life-logging, lifelogging"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RlsL7DVHupwhc9d2Zc3MKA",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R7csiEBmcxi8QFmvvYMCjL9",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "AutomaticDigitalTwin"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RodSThr6gybOnN7XMUr0Px",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R9CqtxgTdgZgt4xQzA681I3",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "Assets"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/RqkhlJfAj4SQCln4o0yhDH",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/R8sDp7CvKLTn5jJQbtqszb4",
+					"__prefix": "rdfs"
+				},
+				"label": {
+					"_xml:lang": "en",
+					"__prefix": "rdfs",
+					"__text": "FingerAddendum"
+				},
+				"_rdf:about": "http://webprotege.stanford.edu/Rsjlff6fmDdBK1Evl9uRDE",
+				"__prefix": "owl"
+			},
+			{
+				"subClassOf": {
+					"_rdf:resource": "http://webprotege.stanford.edu/RDWjVE386Q9Sre5zltvbQtx",
+					"__prefix": "rdfs"
+				},
+				"description": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "dc",
+						"__text": "field of computer science that develops and studies intelligent machines"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "dc",
+						"__text": "ramo da ciência da computação que desenvolve máquinas e software com inteligência"
+					}
+				],
+				"title": {
+					"_xml:lang": "en",
+					"__prefix": "dc",
+					"__text": "artificial intelligence"
+				},
+				"label": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "Artificial Intelligence"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "inteligência artificial"
+					}
+				],
+				"seeAlso": [
+					{
+						"_xml:lang": "en",
+						"__prefix": "rdfs",
+						"__text": "AI,A.I.,Machine intelligence,Artificially intelligent,Artificial Intelligence,Artificial intelligence (AI),Artificial Intelligence (AI),Machine understanding,Simulated intelligence,Artificial Intelligence, a.i.,Computational Rationality,Intelligent machine,A I,Machine thought\nArtificially intelligent beings,Machines that can think,AI software,Artificial smartness"
+					},
+					{
+						"_xml:lang": "pt-br",
+						"__prefix": "rdfs",
+						"__text": "IA"
+					}
+				],
+				"_rdf:about": "http://webprotege.stanford.edu/Rwp6O8yV2ReyJspd6Zz7Wn",
+				"__prefix": "owl"
+			}
+		],
+		"_xmlns": "urn:webprotege:ontology:e011713a-f22a-4d6c-abcb-a8fecca431ae#",
+		"_xmlns:dc": "http://purl.org/dc/elements/1.1/",
+		"_xmlns:owl": "http://www.w3.org/2002/07/owl#",
+		"_xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"_xmlns:xsd": "http://www.w3.org/2001/XMLSchema#",
+		"_xmlns:rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"_xml:base": "urn:webprotege:ontology:e011713a-f22a-4d6c-abcb-a8fecca431ae",
+		"__prefix": "rdf"
+	}
+}
