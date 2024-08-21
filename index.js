@@ -24,7 +24,7 @@ app.get('/api/saudacao', (req, res) => {
 });
 
 // Configurando o servidor para escutar em uma porta específica
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 21220;
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
   console.log(`Acesse a aplicação em: http://localhost:${PORT}`);
