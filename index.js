@@ -1,5 +1,6 @@
 // Api Orkneytech Ontologies
 
+const http = require('http');
 const express = require('express');
 const path = require('path');
 const app = express();
@@ -25,9 +26,13 @@ app.get('/api/saudacao', (req, res) => {
   res.json({ message: 'Olá, esta é sua API!' });
 });
 
-// Configurando o servidor para escutar em uma porta específica
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
+// Configurando o servidor para escutar na porta específica configurada pelo ambiente KingHost
+const PORT = process.env.PORT_APP || 21041; // PORT_APP deve ser configurado no painel KingHost
+const server = http.createServer(app);
+
+server.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
   console.log(`Acesse a aplicação em: http://localhost:${PORT}`);
 });
+
+module.exports = app; // Exportando o app para testes ou uso em outros módulos
