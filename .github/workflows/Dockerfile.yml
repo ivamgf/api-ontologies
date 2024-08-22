@@ -1,21 +1,15 @@
-# pull the base image
-FROM node:alpine
+# dockerfile.yml
+version: '3'
 
-# set the working direction
-WORKDIR /api-ontologies
+services:
+  app:
+    image: node:20
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "21041:21041"
+    volumes:
+      - .:/app
+    command: npm start
 
-# add `/app/node_modules/.bin` to $PATH
-ENV PATH /api-ontologies/node_modules/.bin:$PATH
-
-# install app dependencies
-COPY package.json ./
-
-COPY package-lock.json ./
-
-RUN npm install
-
-# add app
-COPY . ./
-
-# start app
-CMD ["npm", "start"]
