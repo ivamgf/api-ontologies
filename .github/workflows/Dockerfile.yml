@@ -1,25 +1,21 @@
-# Use a imagem oficial do Node.js
-FROM node:20.9.0
+# pull the base image
+FROM node:alpine
 
-# Cria e define o diretório de trabalho na imagem
+# set the working direction
 WORKDIR /api-ontologies
 
 # add `/app/node_modules/.bin` to $PATH
 ENV PATH /api-ontologies/node_modules/.bin:$PATH
 
-# Copia o arquivo package.json e package-lock.json (se existir)
-COPY package*.json ./
+# install app dependencies
+COPY package.json ./
 
 COPY package-lock.json ./
 
-# Instala as dependências do projeto
 RUN npm install
 
-# Copia o restante dos arquivos da aplicação
-COPY . .
+# add app
+COPY . ./
 
-# Expõe a porta em que a aplicação estará rodando
-EXPOSE 3000
-
-# Comando para iniciar a aplicação
+# start app
 CMD ["npm", "start"]
